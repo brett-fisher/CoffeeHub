@@ -8,20 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		D089C6B91F4DC4520030AA45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089C6B81F4DC4520030AA45 /* AppDelegate.swift */; };
-		D089C6BB1F4DC4520030AA45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089C6BA1F4DC4520030AA45 /* ViewController.swift */; };
+		D089C6BB1F4DC4520030AA45 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D089C6BA1F4DC4520030AA45 /* SignInViewController.swift */; };
 		D089C6BE1F4DC4520030AA45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D089C6BC1F4DC4520030AA45 /* Main.storyboard */; };
 		D089C6C01F4DC4520030AA45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D089C6BF1F4DC4520030AA45 /* Assets.xcassets */; };
 		D089C6C31F4DC4520030AA45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D089C6C11F4DC4520030AA45 /* LaunchScreen.storyboard */; };
+		D0C48D7E1F5671D5000E6636 /* coffee_background.mov in Resources */ = {isa = PBXBuildFile; fileRef = D0C48D7D1F5671D5000E6636 /* coffee_background.mov */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D089C6B51F4DC4520030AA45 /* CoffeeHub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoffeeHub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D089C6B81F4DC4520030AA45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D089C6BA1F4DC4520030AA45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D089C6BA1F4DC4520030AA45 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		D089C6BD1F4DC4520030AA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D089C6BF1F4DC4520030AA45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D089C6C21F4DC4520030AA45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D089C6C41F4DC4520030AA45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0C48D7D1F5671D5000E6636 /* coffee_background.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = coffee_background.mov; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +57,11 @@
 			isa = PBXGroup;
 			children = (
 				D089C6B81F4DC4520030AA45 /* AppDelegate.swift */,
-				D089C6BA1F4DC4520030AA45 /* ViewController.swift */,
+				D089C6BA1F4DC4520030AA45 /* SignInViewController.swift */,
 				D089C6BC1F4DC4520030AA45 /* Main.storyboard */,
 				D089C6BF1F4DC4520030AA45 /* Assets.xcassets */,
 				D089C6C11F4DC4520030AA45 /* LaunchScreen.storyboard */,
+				D0C48D7D1F5671D5000E6636 /* coffee_background.mov */,
 				D089C6C41F4DC4520030AA45 /* Info.plist */,
 			);
 			path = CoffeeHub;
@@ -124,6 +127,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0C48D7E1F5671D5000E6636 /* coffee_background.mov in Resources */,
 				D089C6C31F4DC4520030AA45 /* LaunchScreen.storyboard in Resources */,
 				D089C6C01F4DC4520030AA45 /* Assets.xcassets in Resources */,
 				D089C6BE1F4DC4520030AA45 /* Main.storyboard in Resources */,
@@ -137,7 +141,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D089C6BB1F4DC4520030AA45 /* ViewController.swift in Sources */,
+				D089C6BB1F4DC4520030AA45 /* SignInViewController.swift in Sources */,
 				D089C6B91F4DC4520030AA45 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -302,6 +306,7 @@
 				D089C6C91F4DC4520030AA45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
