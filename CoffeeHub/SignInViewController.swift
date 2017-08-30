@@ -33,12 +33,14 @@ class SignInViewController: UIViewController {
         player?.play()
         
         //Loop video
-        NotificationCenter.default.addObserver(self, selector: Selector(("loopVideo")), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(SignInViewController.loopVideo), name: NSNotification.Name.AVPlayerItemDidPlayToEndTime, object: nil)
         
-        func loopVideo() {
-            player?.seek(to: kCMTimeZero)
-            player?.play()
-        }
+        // ******ERROR WITH VIDEO PLAYBACK NEED TO FIX******
+    }
+    
+    func loopVideo() {
+        player?.seek(to: kCMTimeZero)
+        player?.play()
     }
 
     override func didReceiveMemoryWarning() {
